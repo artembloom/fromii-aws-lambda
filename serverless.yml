@@ -45,8 +45,9 @@ provider:
 #  artifact: my-service-code.zip
 
 functions:
-  hello:
-    handler: handler.hello
+  validateJSON:
+    handler: handler.validateJSON
+    memorySize: 128
 
 #    you can add any of the following events
 #    events:
